@@ -1,0 +1,14 @@
+<div class="slider">
+  <img [src]="slides[currentIndex]" class="slide-img" alt="Slide {{ currentIndex + 1 }}" />
+
+  <!-- Radio buttons -->
+  <div class="radio-buttons">
+    <input
+      *ngFor="let slide of slides; let i = index"
+      type="radio"
+      name="slide"
+      [checked]="i === currentIndex"
+      (change)="goToSlide(i)"
+    />
+  </div>
+</div>
