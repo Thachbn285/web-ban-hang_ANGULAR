@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { Login } from './user/pages/login/login';
-import { Home } from './user/pages/home/home';
-import { Register } from './user/pages/register/register';
-import { Cart } from './user/pages/cart/cart';
+import { Login } from './modules/user/pages/login/login';
+import { Home } from './modules/user/pages/home/home';
+import { Register } from './modules/user/pages/register/register';
+import { Cart } from './modules/user/pages/cart/cart';
 
 export const routes: Routes = [
   {

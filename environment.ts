@@ -1,3 +1,3 @@
 export const environment = {
-  apiUrl: 'https://online-learning-platform-gpsc.onrender.com',
+  apiUrl: ' https://api.myanimelist.net/v2',
 };

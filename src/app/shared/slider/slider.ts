@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './slider.css',
 })
 export class Slider implements OnInit, OnDestroy {
-  slides = ['../../assets/img/29493.jpg', '../../assets/img/2352574.jpg'];
+  slides = ['assets/img/29493.jpg', 'assets/img/2352574.jpg'];
 
   currentIndex = 0;
   intervalId: any;
